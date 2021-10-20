@@ -4,6 +4,7 @@
 
     --primary: #784d3c;
     --white: #fff;
+    --gray: #e1e1e1;
     --black: #000;
 }
 html {
@@ -100,4 +101,19 @@ img {
     display: block;
     text-align: center;
     color: var(--white);
+}
+@media (min-width: 768px) {
+    .principal-content {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 4rem;
+    }
+}
+.entry {
+    border-bottom: 2px solid var(--gray);
+    margin-bottom: 2rem;
+}
+.entry:last-of-type {
+    border: none;
+    margin: 0;
 }

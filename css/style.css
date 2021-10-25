@@ -27,6 +27,7 @@ a {
 }
 h1, h2, h3, h4 {
     font-family: var(--fontHeading);
+    line-height: 1.5
 }
 h1 {
     font-size: 4.8rem;
@@ -143,11 +144,12 @@ img {
     list-style: none;
 }
 .widget-course {
-    border-top: 2px solid var(--gray);
+    border-bottom: 2px solid var(--gray);
     margin-bottom: 3rem;
 }
-.widget-course:first-of-type {
+.widget-course:last-of-type {
     border: none;
+    margin-bottom: 0;
 }
 .widget-course_label {
     font-weight: bold;

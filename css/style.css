@@ -172,3 +172,13 @@ img {
     padding-bottom: 3rem;
     margin-top: 4rem;
 }
+@media (min-width: 768px) {
+    .us {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .us__image,
+    .us__text {
+        margin: 0 2rem;
+    }
+}

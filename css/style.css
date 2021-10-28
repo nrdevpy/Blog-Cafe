@@ -194,3 +194,14 @@ img {
         width: 70%;
     }
 }
+@media (min-width: 768px) {
+    .soon_course {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 3rem;
+    }
+    
+}
+.course_image {
+    margin-bottom: 3rem;
+}

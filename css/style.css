@@ -186,3 +186,8 @@ img {
         margin: 0 2rem;
     }
 }
+
+.blog_image {
+    width: 70%;
+    margin: 2rem auto;
+}

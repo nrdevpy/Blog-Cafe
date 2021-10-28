@@ -187,18 +187,10 @@ img {
     }
 }
 .blog_image {
-<<<<<<< HEAD
     margin: 3rem auto;
 }
 @media (min-width: 768px) {
     .blog_image {
         width: 70%;
-=======
-    margin: 3rem 0;
-}
-@media (min-width: 768px) {
-    .blog_image {
-    width: 70%;
->>>>>>> e870c768352229f98d69ca523c90b5e4aed32b76
     }
 }

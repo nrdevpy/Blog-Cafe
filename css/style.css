@@ -136,6 +136,10 @@ img {
     font-size: 1.8rem;
     font-weight: bold;
     margin-bottom: 1.5rem;
+    border: none;
+}
+.button:hover {
+    cursor: pointer;
 }
 @media (min-width: 768px) {
     .button {
@@ -204,4 +208,30 @@ img {
 }
 .course_image {
     margin-bottom: 3rem;
+}
+
+.contact-bg {
+    background-image: url(../img/contacto.jpg);
+    height: 40rem;
+    background-repeat: no-repeat;
+}
+
+.form {
+    background-color: var(--white);
+    margin: -5rem auto 0 auto;
+    width: 90%;
+    padding: 5rem;
+}
+.field {
+    display: flex;
+    margin-bottom: 2rem;
+}
+.field__label {
+    flex: 0 0 10rem;
+}
+.field__input {
+    flex: 1;
+}
+.field__textarea {
+    height: 20rem;
 }

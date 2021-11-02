@@ -220,11 +220,7 @@ img {
     background-color: var(--white);
     margin: -5rem auto 0 auto;
     width: 90%;
-<<<<<<< HEAD
     padding: 1rem;
-=======
-    padding: 5rem;
->>>>>>> 2c371f308be59720048d38df4fc3f161d04223b0
 }
 .field {
     display: flex;

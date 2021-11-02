@@ -220,11 +220,7 @@ img {
     background-color: var(--white);
     margin: -5rem auto 0 auto;
     width: 90%;
-<<<<<<< HEAD
     padding: 1rem;
-=======
-    padding: 5rem;
->>>>>>> 2c371f308be59720048d38df4fc3f161d04223b0
 }
 .field {
     display: flex;
@@ -232,9 +228,12 @@ img {
 }
 .field__label {
     flex: 0 0 8rem;
+    text-align: right;
+    padding-right: 2rem;
 }
 .field__input {
     flex: 1;
+    border: 2px solid var(--gray);
 }
 .field__textarea {
     height: 20rem;

@@ -7,11 +7,17 @@
 
         <title>Blog De Café</title>
 
-        <!-- Preloads -->
+        <!-- Prefetch -->
+        <link 
+            rel="prefetch"
+            href="nosotros.html"
+            as="document"
+        >
+        
+        <!-- Preload -->
         <link rel="preload" href="css/normalize.css" as="style">
         <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" as="font" crossorigin="crossorigin">
         <link rel="preload" href="css/style.css" as="style">
-        <link rel="preload" href="img/blog1.jpg" as="image">
         
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -52,7 +58,10 @@
 
                 <article class="entry">
                     <div class="entry-image">
-                        <img src="img/blog1.jpg" alt="blog-image" loading="lazy">
+                        <picture>
+                            <source loading="lazy" srcset="img/blog1.webp" type="image/webp">
+                            <img src="img/blog1.jpg" alt="blog-image" loading="lazy">
+                        </picture>
                     </div>
 
                     <div class="entry-content">
@@ -67,7 +76,10 @@
 
                 <article class="entry">
                     <div class="entry-image">
-                        <img src="img/blog2.jpg" alt="blog-image" loading="lazy">
+                        <picture>
+                            <source loading="lazy" srcset="img/blog2.webp" type="image/webp">
+                            <img src="img/blog2.jpg" alt="blog-image" loading="lazy">
+                        </picture>
                     </div>
 
                     <div class="entry-content">
@@ -82,7 +94,10 @@
 
                 <article class="entry">
                     <div class="entry-image">
-                        <img src="img/blog3.jpg" alt="blog-image" loading="lazy">
+                        <picture>
+                            <source loading="lazy" srcset="img/blog3.webp" type="image/webp">
+                            <img src="img/blog3.jpg" alt="blog-image" loading="lazy">
+                        </picture>
                     </div>
 
                     <div class="entry-content">

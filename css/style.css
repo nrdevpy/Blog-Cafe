@@ -219,15 +219,15 @@ img {
 .form {
     background-color: var(--white);
     margin: -5rem auto 0 auto;
-    width: 95%;
-    padding: 5rem;
+    width: 90%;
+    padding: 1rem;
 }
 .field {
     display: flex;
     margin-bottom: 2rem;
 }
 .field__label {
-    flex: 0 0 10rem;
+    flex: 0 0 8rem;
 }
 .field__input {
     flex: 1;
